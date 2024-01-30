@@ -1,0 +1,12 @@
+prefix=C:/hydrology_arcpy/Library
+exec_prefix=C:/hydrology_arcpy/Library
+libdir=C:/hydrology_arcpy/Library/lib
+includedir=C:/hydrology_arcpy/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

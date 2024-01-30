@@ -1,0 +1,11 @@
+prefix=C:/hydrology_arcpy/Library
+exec_prefix=C:/hydrology_arcpy/Library
+libdir=C:/hydrology_arcpy/Library/lib
+includedir=C:/hydrology_arcpy/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 
+Libs: -LC:/hydrology_arcpy/Library/lib -ltiff
+Libs.private: 
+Cflags: -IC:/hydrology_arcpy/Library/include
